@@ -5,14 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>task</title>
-    <link rel="stylesheet" href="css_file.css">
+    <link rel="stylesheet" href="css/css_file.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    
 </head>
 
 <!-- body -->
 <body>
+    <!-- ----------- 1  navbar----------- -->
     
     <nav>
-        <p id="title">iti students</p>
+        <h1>iti students</h1>
         <ul>
            <li><a href="#">Portfolio</a> </li> 
            <li><a href="#">About</a> </li> 
@@ -23,20 +26,21 @@
 
         </ul>
     </nav>
-    <div class="introduction">
+
+    <section class="banner">
         <img  id ="person_image" src="images/person.png" alt="your image" width="200px" height="160px"> 
-        <p class ="title2">iti students</p>
+        <h2 id="title">iti students</h2>
         <p id ="star">_____&starf;______</p>
-        <p id ="description"> frontend technology project</p>
+        <h4> frontend technology project</h4>
 
 
-    </div>
-    <div class="portfolio">
-        <p class="title3">portfolio</p>
-        <p id ="star2" style="font-family: 'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;color: rgb(46, 37, 37);"> ______ &starf;  ______</p>
+    </section>
+    <section class="portfolio">
+        <h2 class="black_title">portfolio</h2>
+        <h2 id ="star2" style="font-family: 'Trebuchet MS',  'Lucida Sans', Arial, sans-serif;color: rgb(46, 37, 37);"> ______ &starf;  ______</h2>
 
 
-    </div>
+    </section>
         <div class="images">
 
             <div id="i1">
@@ -71,32 +75,31 @@
             </div>
         </div>
 
-    <div id ="about" >
+    <section id ="about" >
 
-        <p id="about_title">About</p>
-        <p id ="star"> ______ &starf;  ______</p>
+        <h2 class="white_title">About</p>
+        <h2 id ="star"> ______ &starf;  ______</h2>
         <div id ="about_me">
-            <p> Iam Ahmed mohamed gafar.I like fish and milk I like many vegetables</p>
-            <p> Iam Ahmed mohamed gafar.I like fish and milk I like many vegetables</p>
+            <h4> Iam Ahmed mohamed gafar.I like fish and milk I like many vegetables</h4>
+            <h4> Iam Ahmed mohamed gafar.I like fish and milk I like many vegetables</h4>
 
         </div>
         
 
 
-    </div>
-    <div id="contact_me">
-        <p class="title3">contact me</p>
-        <p id ="star2"> ______ &starf;  ______</p>
+    </section>
+    <section id="contact_me">
+        <h2 class="black_title">contact me</p>
+        <h2 id ="star2"> ______ &starf;  ______</p>
         <form action="">
 
-        <div id ="information"> 
-            <p>full Name</p>
+            <label  for="full_name">full Name</label>
             <input type="text" required>
-            <p>Email address</p>
+            <label for="email">Email address</label>
             <input type="email" required >
-            <p>phone number </p>
+            <label for="phone">phone number </label>
             <input type="tel">
-            <p >message </p>
+            <label for="comment">message </p>
             <input id="mess" type="text">
             <div id="submit">
                 <input id="sub" type="submit" value="send">
@@ -104,25 +107,32 @@
             </div>
 
 
-        </div>
     </form>
 
 
 
-    </div>
+</section>
+<!-- --------------footer--------- -->
     <footer>
+        <div>
+            
+        </div>
 
         <div>
-            <p class="footer_title">location</p>
+            <h2 class="footer_title">location</h2>
             <p class ="arial2">Dakahlia mataria asafra metro street</p>
 
 
         </div>
         <div>
-            <p class="footer_title">around the web</p>
-            <img src="images/facebook-removebg-preview.png" alt="" width="60px" height="80px">
-            <img src="images/twitter-removebg-preview.png" alt="" width="60px" height="80px">
-            <img src="images/instgram.png" alt="" width="60px" height="60px">
+            
+            <h2 class="footer_title">AROUND THE WEB</h2>
+                    <div class="socials" >
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-linkedin-in"></i>
+                        <i class="fas fa-globe"></i>            
+                    </div>
 
 
             
@@ -130,8 +140,8 @@
 
         </div>
         <div>
-            <p class="footer_title">about  freelancer</p>
-            <p class ="arial2">freelancer is free to use iti studets website</p>
+            <h2 class="footer_title">about  freelancer</h2>
+            <h4 class ="arial2">freelancer is free to use iti studets website</h4>
 
 
 
@@ -141,16 +151,6 @@
 
         <p >&copy;	copyright for iti</p>
     </div>
-
-
-
-
-
-        
-
-        
-
-
 
     
 </body>
